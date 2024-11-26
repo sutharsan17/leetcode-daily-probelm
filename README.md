@@ -1,1 +1,1 @@
-# leetcode-daily-probelm
+# leetcode-daily-problem
