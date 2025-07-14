@@ -3,7 +3,7 @@ class Solution {
         int n =s.length;
         int l=0;
         int r=n-1;
-        while(l<r){
+        while(l<=r){
             char temp=s[r];
             s[r]=s[l];
             s[l]= temp;
