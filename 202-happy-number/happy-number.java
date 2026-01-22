@@ -7,10 +7,9 @@ class Solution {
                 sum+=Math.pow(n%10,2);
                 n=n/10;
             }
-
             if(sum==1) return true;
             n=sum;
-            if(used.contains(n))return false;
+            if(used.contains(n)) return false;
             used.add(n);
         }
         
