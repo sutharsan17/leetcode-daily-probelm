@@ -4,7 +4,7 @@ class Solution {
         while(true){
             int sum=0;
             while(n!=0){
-                sum+=Math.pow(n%10,2.0);
+                sum+=Math.pow(n%10,2);
                 n=n/10;
             }
 
